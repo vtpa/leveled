@@ -1,0 +1,61 @@
+.lesson-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.lesson-container h3 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #F9E310;
+    margin-top: 15px;
+}
+
+.lesson-container  .video-container {
+    width: 368px;
+    margin: 11px 23px;
+    padding: 0;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+}
+
+.lesson-container  section {
+    width: 368px;
+    margin: 11px 23px;
+    padding: 13px;    
+    background: #4C358F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+}
+
+
+.lesson-container section .lesson-container {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.lesson-container section .lesson-container p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.lesson-container section .lesson-container span {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.lesson-container .award-container {
+    margin: 20px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 18px;
+}

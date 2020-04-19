@@ -1,0 +1,74 @@
+.conquests-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.conquests-container  section {
+    width: 368px;
+    margin: 11px 23px;
+    padding: 20px;
+    color: #FFF;
+    background: #4C358F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+}
+
+.conquests-container section div h3 {
+    color: #F9E310;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 8px;
+}
+
+.conquests-container  section.identif-container {
+    text-align: center;
+}
+
+.conquests-container  section .img-person {
+    border-radius: 50%;
+    border: 10px solid  #382B73;
+    background-color: #382B73;
+    margin-top: -70px;
+}
+
+.conquests-container section .person-container {
+    margin: 10px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.conquests-container .square-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.conquests-container .square-buttons div {
+    width: 174px;
+    padding: 18px;
+    background: #392671;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+    margin: 12px;
+    color: #FFF;
+}
+.conquests-container .square-buttons div h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.conquests-container .square-buttons div:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+

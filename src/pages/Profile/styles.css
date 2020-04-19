@@ -1,86 +1,102 @@
-.profile-container {
+.profile2-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.profile-container  section {
+.profile2-container  section {
     width: 368px;
-    height: 139px;
     margin: 11px 23px;
-    padding: 13px;
-    
+    padding: 20px;
+    color: #FFF;
     background: #4C358F;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 21px;
 }
 
-.profile-container  section .img-person {
-    border-radius: 21px;
-}
 
-.profile-container section .person-container {
-    float: right;
-    width: 205px;
-    margin: 20px 10px;
+.profile2-container  section.identif-container {
     text-align: center;
 }
 
+.profile2-container  section .img-person {
+    border-radius: 50%;
+    border: 10px solid  #473080;
+    margin-top: -70px;
+}
 
-.profile-container section .mission-container {
-    float: left;
+.profile2-container section .person-container {
     width: 205px;
+    margin: 10px auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.profile2-container section .person-container span {
+    font-style: italic;
+    line-height: 30px;
+}
+
+.profile2-container section .mission-container {
+    float: left;
+    width: 250px;
     margin: 0 5px;
-    text-align: left;
+    text-align: center;
 }
 
-.profile-container section .img-mission {
+.profile2-container section .mission-container p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.profile2-container section .img-xp {
     float: right;
-    width: 122px;
+    margin-right: 5px;
 }
 
-.profile-container section .mission-container button {
+.profile2-container section .mission-container-center {
+    text-align: center;
+}
+
+.profile2-container section .mission-container-center img {
+    margin: 18px 0;
+}
+
+.profile2-container section .mission-container-center .button-adquira {
     width: 187px;
     height: 36px;
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    color: #221741;
-    margin-top: 7px;
-
-    background: #F9E310;
+    background: #392671;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-}
-
-.profile-container section .mission-container button.exercises {
-    background: #392671;
+    border: none;
     color: #F9E310;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.profile-container section .mission-container button:hover {
+.profile2-container section .mission-container-center .button-adquira:hover {
     opacity: 0.8;
 }
 
-.profile-container section div h3 {
+.profile2-container section div h3 {
     color: #F9E310;
     font-weight: 600;
     font-size: 26px;
     line-height: 31px;
+    margin-bottom: 8px;
 }
 
-.profile-container section div h4 {
+.profile2-container section div h4 {
     color: #F9E310;
     font-weight: 600;
     font-size: 22px;
     line-height: 26px;
-}
-
-.profile-container section div p {
-    font-size: 15px;
-    line-height: 18px;
-    color: #FFFFFF;
+    margin-bottom: 10px;
 }

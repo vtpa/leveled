@@ -11,7 +11,7 @@ export default function Header(){
     <nav>
       <ul>
       <li id="menu"><Link to="/profile"><img src={menuImg} alt="Menu"/></Link></li>
-      <li><Link className="link-home" to="/">Level-ED</Link></li>
+      <li><Link className="link-home" to="/">LevelED</Link></li>
       <li id="logout"><Link to="/"><img src={powerImg} alt="Logout"/></Link></li>
       </ul>
     </nav>

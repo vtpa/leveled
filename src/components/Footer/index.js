@@ -12,7 +12,7 @@ export default function Footer(){
     <footer>
       <ul>
       <li><Link to="/"><img src={searchImg} alt="Busca"/></Link></li>
-      <li id="trophy-footer"><Link to="/"><img src={trophyImg} alt="Conquistas"/></Link></li>
+      <li id="trophy-footer"><Link to="/conquests"><img src={trophyImg} alt="Conquistas"/></Link></li>
       <li><Link to="/"><img src={commentImg} alt="Mensagens"/></Link></li>
       </ul>
     </footer>

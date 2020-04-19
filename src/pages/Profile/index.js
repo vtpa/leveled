@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -6,53 +7,47 @@ import Footer from '../../components/Footer';
 import './styles.css';
 
 import personImg from '../../assets/person.png'
-import mission1Img from '../../assets/mission1.png'
-import mission2Img from '../../assets/mission2.png'
-import mission3Img from '../../assets/mission3.png'
+import levelImg from '../../assets/level.png'
+
+import XPpotionImg from '../../assets/XPpotion.png'
+import XPcoinImg from '../../assets/XPcoin.png'
 
 export default function Profile() {
 
     return (
         <>
         <Header />
-        <div className="profile-container">
-            <section>
+        <div className="profile2-container">
+            <section className="identif-container">
                 <img src={personImg} className="img-person" alt="Person"/>
                 <div className="person-container">
-                    <h3>Olá, Fernanda!</h3>
-                    <p>Vamos continuar a jornada?</p>
-                    <p>Retorne à missão!</p>
+                    <h3>Fernanda Silva</h3>
+                    <p>Aventureira do 9º ano</p>
+                    <span>Nível 03</span>
                 </div>
             </section>
 
             <section>
                 <div className="mission-container">
-                    <h4>1ª Missão do Dia</h4>
-                    <p>Completar a aula</p>
-                    <p>- Introdução à Quimica</p>
-                    <button>Começar!</button>
+                    <h4>Pontos de Experiência</h4>
+                    <p>530 pontos</p>
                 </div>
-                <img src={mission1Img} className="img-mission" alt="Mission"/>
+                <img src={XPpotionImg} className="img-xp" alt="Mission"/>
+                <div className="mission-container-center">
+                    <img src={levelImg} className="img-level" alt="530 Pontos"/><br />
+                    <span>Faltam 76 pontos para você atingir o nível 4!</span>
+                </div>
             </section>
 
             <section>
                 <div className="mission-container">
-                    <h4>2ª Missão do Dia</h4>
-                    <p>Completar a aula</p>
-                    <p>- Literatura Brasileira</p>
-                    <button>Começar!</button>
+                    <h4>Moedas</h4>
+                    <p>326 moedas</p>
                 </div>
-                <img src={mission2Img} className="img-mission" alt="Mission"/>
-            </section>
-
-            <section>
-                <div className="mission-container">
-                    <h4>Exercícios do Dia:</h4>
-                    <p>Química: Páginas 32 a 33</p>
-                    <p>Literatura: páginas 45 a  47</p>
-                    <button className="exercises">Abrir</button>
+                <img src={XPcoinImg} className="img-xp" alt="Mission"/>
+                <div className="mission-container-center">
+                    <button className="button-adquira">Adquira novos itens!</button>
                 </div>
-                <img src={mission3Img} className="img-mission" alt="Mission"/>
             </section>
 
         </div>

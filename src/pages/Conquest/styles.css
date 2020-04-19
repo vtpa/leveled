@@ -1,0 +1,66 @@
+.conquest-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.conquest-container  section {
+    width: 368px;
+    margin: 11px 23px;
+    padding: 20px;
+    color: #FFF;
+    background: #4C358F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+    text-align: center;
+}
+
+.conquest-container  section p.space{
+    margin-top: 40px;
+}
+
+.conquest-container section div h3 {
+    color: #F9E310;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 8px;
+}
+
+.conquest-container  section.identif-container {
+    text-align: center;
+}
+
+.conquest-container  section .img-conquest {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 25px;
+    border: 15px solid  #382B73;
+    background-color: #473080;
+    margin: -90px auto 0;
+}
+
+.conquest-container  section .img-conquest img {
+    width: 100px;
+}
+
+.conquest-container section .person-container {
+    margin: 10px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.conquest-container section .person-container .share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.conquest-container section .person-container .share img {
+    margin: 10px 10px 10px 90px;
+}
