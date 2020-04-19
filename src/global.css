@@ -14,7 +14,8 @@ body {
 }
 
 div#root {
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     margin: 0 auto;
 }
 

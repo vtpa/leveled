@@ -2,14 +2,16 @@ nav {
   position: fixed;
   top: 0;
   background-color: #221741;
+  width: 100%;
+  max-width: 414px;
+  padding: 0 10px;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px 0 10px;
-  width: 414px;
-  height: 40px;
+
 }
 
 nav ul li {
