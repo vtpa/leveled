@@ -1,0 +1,86 @@
+.profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.profile-container  section {
+    width: 368px;
+    height: 139px;
+    margin: 11px 23px;
+    padding: 13px;
+    
+    background: #4C358F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+}
+
+.profile-container  section .img-person {
+    border-radius: 21px;
+}
+
+.profile-container section .person-container {
+    float: right;
+    width: 205px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+
+.profile-container section .mission-container {
+    float: left;
+    width: 205px;
+    margin: 0 5px;
+    text-align: left;
+}
+
+.profile-container section .img-mission {
+    float: right;
+    width: 122px;
+}
+
+.profile-container section .mission-container button {
+    width: 187px;
+    height: 36px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #221741;
+    margin-top: 7px;
+
+    background: #F9E310;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.profile-container section .mission-container button.exercises {
+    background: #392671;
+    color: #F9E310;
+}
+
+.profile-container section .mission-container button:hover {
+    opacity: 0.8;
+}
+
+.profile-container section div h3 {
+    color: #F9E310;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.profile-container section div h4 {
+    color: #F9E310;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.profile-container section div p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}

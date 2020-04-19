@@ -1,0 +1,25 @@
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #221741;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px;
+  width: 414px;
+  height: 40px;
+}
+
+nav ul li {
+  display: block;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: #27C1E6;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
