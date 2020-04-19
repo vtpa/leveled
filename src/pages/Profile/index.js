@@ -21,7 +21,7 @@ export default function Profile() {
             <section className="identif-container">
                 <img src={personImg} className="img-person" alt="Person"/>
                 <div className="person-container">
-                    <h3>Fernanda Silva</h3>
+                    <h3>Patricia Silva</h3>
                     <p>Aventureira do 9º ano</p>
                     <span>Nível 03</span>
                 </div>

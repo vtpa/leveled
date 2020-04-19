@@ -20,7 +20,7 @@ export default function Home() {
             <section>
                 <img src={personImg} className="img-person" alt="Person"/>
                 <div className="person-container">
-                    <h3>Olá, Fernanda!</h3>
+                    <h3>Olá, Patricia!</h3>
                     <p>Vamos continuar a jornada?</p>
                     <p>Retorne à missão!</p>
                 </div>
